@@ -1,0 +1,135 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+
+:root {
+    --roboto: 'Roboto', sans-serif;
+    --play: 'Playfair Display';
+    --brghit: #F3EED9;
+    --brown: #824936;
+    --dark: #222C2A;
+}
+
+body {
+    margin: 0;
+    font-family: var(--roboto);
+}
+
+img {
+    max-width: 50%;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: var(--play);
+    font-weight: 900;
+    color: #824936;
+}
+
+/* utility classes */
+
+.container {
+    width: min(80%, 1128px);
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+/* ---utility classes--- */
+
+/* header */
+.header {
+    background-color: var(--brghit);
+    min-height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero {
+    text-align: center;
+}
+
+.hero p {
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 8px;
+}
+
+/* ---header--- */
+
+
+/* Main */
+
+/* Section 1 */
+.first-sec {
+    margin: 4em 0;
+}
+
+.first-sec__title {
+    font-family: var(--play);
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    color: var(--brown);
+}
+
+.first-sec__content {
+    font-family: var(--roboto);
+    font-size: 21px;
+    font-weight: 400;
+    justify-content: space-between;
+    gap: 2em;
+
+}
+
+
+
+
+/* ---Section 1--- */
+
+.content_title {
+    font-size: 28px;
+    font-family: var(--play);
+}
+
+/* Section 2 */
+.sec2 {
+    background-color: var(--dark);
+    padding: 5em 0;
+
+}
+
+.content {
+    justify-content: space-between;
+    gap: 1.5em;
+}
+
+.content_text {
+    color: aliceblue;
+
+}
+
+/* ---Section 2--- */
+/* Section 3 */
+.sec3 {
+    background-color: var(--brown);
+    padding: 5em 0;
+
+}
+
+/* ---Section 3--- */
+/* ---Main--- */
